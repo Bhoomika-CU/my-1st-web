@@ -1,0 +1,43 @@
+.nav-item a:hover{
+  color: white;
+  background-color: pink;
+}
+.img-same-height {
+  height: 600px; 
+  object-fit: cover; 
+}
+.image-container{
+  position: relative;
+  text-align: center;
+  
+}
+.overlay{
+  position: absolute;
+  top:50px;
+  color: brown;
+  right: 30%;
+  left:50px;
+  font-weight: bold;
+  font-size: small;
+  transform: translateX(-50%);
+  background-color: lightpink;
+  opacity: 0.6;
+  padding: 20px 20px;
+  border-radius: 180px;
+  font-size: 30px;
+  animation:  pulse 1.9s infinite;
+  
+  
+}
+ 
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
